@@ -20,8 +20,8 @@ float temp = 0.0;
 
 
 
-const char* ssid     = "Beswick-Stott";
-const char* password = "edasol123";
+const char* ssid     = "your-ssid";
+const char* password = "your-wifi-password";
 byte server[] = { 192, 168, 0, 41 };
 WiFiClient client;
    PubSubClient mqttclient(server, 1883, 0, client);
